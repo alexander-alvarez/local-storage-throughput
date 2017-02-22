@@ -19,7 +19,11 @@ module.exports = function(environment) {
 
     APP: {
       // Here you can pass flags/options to your application instance
-      // when it is created
+      // when it is create
+    },
+    'local-storage-throughput': {
+      localStorageKey: 'lst-windows',
+      appId: 'some-app'
     }
   };
 
